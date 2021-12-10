@@ -2,5 +2,12 @@
 deployment:
     tasks:
       - export DEPLOYPATH=/home/sakodeko/public_html/
+      - /bin/cp .htaccess $DEPLOYPATH
       - /bin/cp index.html $DEPLOYPATH
+      - /bin/cp komunitas.html $DEPLOYPATH
+      - /bin/cp kursus.html $DEPLOYPATH
+      - /bin/cp 404.md $DEPLOYPATH
+      - /bin/cp google590e233ffa271578.html $DEPLOYPATH
+      - /bin/cp README.md $DEPLOYPATH
+      - /bin/cp -R assets $DEPLOYPATH
       
